@@ -1,0 +1,153 @@
+
+body {
+    background-color: hsl(185deg 41% 84%);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+.Container {
+    width: 37%;
+    margin: auto;
+    display: flex;
+    margin-top: 7rem;
+    background: hsl(0deg 0% 100%);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.top p {
+    margin: 0px;
+    color: hsl(183deg 8% 50%);
+}
+
+input {
+    border: none;
+    background: hsl(203deg 11% 90%);
+    height: 31px;
+    width: 250px;
+    color: hsl(179deg 92% 14%);
+    font-weight: 600;
+}
+
+.center h6 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+    font-size:large;
+}
+
+button {
+    border: none;
+    padding: 8px 8px;
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    background: hsl(183deg 100% 15%);
+    font-weight: bold;
+}
+
+.bottom .bottom-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+}
+
+.warning {
+    color: red;
+}
+
+.body-wrapper{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.right{
+    margin-left: 2rem;
+    margin-top: auto;
+    background-color:hsl(183deg 100% 15%) ;
+    border-radius: 1rem;
+    padding:24px 25px;
+    width:224px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.right-top{
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.right-inside{
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.button button {
+    
+    background-color: hsl(172deg 67% 45%);
+    width: 100%;
+    margin-top: 3rem;
+    color:hsl(183deg 22% 33%);
+    font-size: large;;
+}
+h1{
+    text-align:center;
+    margin-top:3rem;
+    color:hsl(183deg 22% 33%);
+}
+
+.different{
+    background-color:hsl(172deg 67% 45%) ;
+}
+.custom{
+    background-color: white;
+    color:hsl(183deg 100% 15%);
+    font-size:large;
+}
+.size{
+    color:hsl(172deg 67% 45%);
+    font-size:xx-large;
+}
+.card {
+    text-align:right;
+    color:hsl(183deg 100% 15%);
+    font-size:large; 
+    width:100%;
+}
+.number{
+    text-align:right;
+    font-size:large; 
+}
+@media(max-width:300px)
+{
+   body{
+    display:none;
+    }
+    }
+
+
+  
